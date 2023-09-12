@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * Klasa - reprezentuje zespół uczniów
+ */
 public class Klasa {
     private ArrayList<Uczen> uczniowie = new ArrayList<>();
     private  String nazwa;
@@ -21,6 +24,11 @@ public class Klasa {
         }
     }
 
+    /**
+     * dodajUczniaDoKlasy metoda która umożliwia dodawanie ucznia klasy Uczen do pola Uczniowie w obiekcie klasy Klasa
+     * @param uczen - obiekt reprezentujacy pojedynczego ucznia
+     * @return - brak
+     */
     public void dodajUczniaDoKlasy(Uczen uczen){
         uczniowie.add(uczen);
     }
